@@ -1,0 +1,16 @@
+{
+    "name": "react-native-env",
+    "version": "0.0.0",
+    "description": "A React Native Development Environment.",
+    "scripts": {
+        "react-native-init": "react-native init"
+    },
+    "dependencies": {
+        "react-native-cli": "2.0.1"
+    },
+    "license" : "BSD-3-Clause",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jasonjlock/react-native-env.git"
+    }
+}

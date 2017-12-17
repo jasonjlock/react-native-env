@@ -1,0 +1,9 @@
+version: '3'
+services:
+    env:
+        build: .
+        ports:
+            - 8081:8081
+        volumes:
+            - ./:/code
+            - /code/node_modules

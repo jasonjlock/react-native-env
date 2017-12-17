@@ -47,18 +47,18 @@ docker exec -it reactnativeenv_env_1 bash -c "cd <YOUR APP NAME> && npm run star
 
 ### Android
 
-Referrer to the [React Native documentation](https://facebook.github.io/react-native/docs/getting-started.html) to download, install, and configure Android Studio.
+Refer to the [React Native documentation](https://facebook.github.io/react-native/docs/getting-started.html) to download, install, and configure Android Studio.
 After Android Studio is setup, start it, select Open an existing Android Studio Project, and find your React Native Android project.
 
-Now that your project has been added to Android Studio, run it by pressing Control + R on Mac and Shift + F10 on Windows, then select your virtual device. This will bring up an emulator running your app. Make some code changes (<YOUR APP NAME>/App.js for example) then press the R key twice to reload the emulator.
+Now that your project has been added to Android Studio, run it by pressing Control + R on Mac and Shift + F10 on Windows, then select your virtual device. This will bring up an emulator running your app. Make some code changes (App.js for example) then press the R key twice to reload the emulator.
 
 ### iOS
 
-Referrer to the [React Native documentation](https://facebook.github.io/react-native/docs/getting-started.html) to download, install, and configure Xcode.
+Refer to the [React Native documentation](https://facebook.github.io/react-native/docs/getting-started.html) to download, install, and configure Xcode.
 
 Open <YOUR APP NAME>/ios/<YOUR APP NAME>.xcodeproj in Xcode.
 
-Run your project by pressing Command-R. This will will bring up a simulator running your app. Make some code changes (<YOUR APP NAME>/App.js for example) then press Command-R to reload the simulator.
+Run your project by pressing Command-R. This will will bring up a simulator running your app. Make some code changes (App.js for example) then press Command-R to reload the simulator.
 
 
 Stop the running containers:

@@ -36,13 +36,13 @@ this starts a Node.js server to keep the container running.
 Initialize your React Native project.
 
 ```
-docker exec -it reactnativeenv_env_1 npm run react-native-init -- <YOUR APP NAME>
+docker exec -it reactnativeenv_env_1 npm run react-native-init -- YOUR_APP_NAME
 ```
 
 Start the React Native packager server.
 
 ```
-docker exec -it reactnativeenv_env_1 bash -c "cd <YOUR APP NAME> && npm run start"
+docker exec -it reactnativeenv_env_1 bash -c "cd YOUR_APP_NAME && npm run start"
 ```
 
 ### Android
@@ -56,7 +56,7 @@ Now that your project has been added to Android Studio, run it by pressing Contr
 
 Refer to the [React Native documentation](https://facebook.github.io/react-native/docs/getting-started.html) to download, install, and configure Xcode.
 
-Open <YOUR APP NAME>/ios/<YOUR APP NAME>.xcodeproj in Xcode.
+Open YOUR_APP_NAME/ios/YOUR_APP_NAME.xcodeproj in Xcode.
 
 Run your project by pressing Command-R. This will will bring up a simulator running your app. Make some code changes (App.js for example) then press Command-R to reload the simulator.
 
